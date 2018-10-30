@@ -29,7 +29,7 @@ change bin range in x by summing depending y-values to each new bin (new bin is 
 Part II: 
 DERIVE CONSTANT BINSIZE for non-linear x-axis scaling
 Often the x-Axis (e.g. spectral axis) comes in px but in "real" scales with some other
-nonlinear function (e.g. x^2). In order to implement the such a routine, the functional
+nonlinear function (e.g. Constant - x^2). In order to implement the such a routine, the functional
 dependency has to be attributed by rescaling the x-axis. This means x-axis which 
 has naturally in the picture i-times constant binsize of 1px now has to become f(x) and 
 hence, the y(f(x)) have to be summarized accordingly. Restriction: f(x) > 1px.
